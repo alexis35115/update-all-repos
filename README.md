@@ -15,6 +15,6 @@ Exécutez la commande ici-bas :
 .\updateAll.ps1
 ```
 
-Vous devriez vous un log de toutes les mises à jour effectuées.
+Vous devriez voir un log de toutes les mises à jour effectuées.
 
 Tous droits réservés 2021 © Alexis Garon-Michaud
