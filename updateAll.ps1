@@ -1,1 +1,1 @@
-Get-ChildItem -Directory | foreach { Write-Host "`n■ Obtenir la dernière version du repo $_ ↓" | git -C $_.FullName pull --all --recurse-submodules --verbose }
+Get-ChildItem -Directory | foreach { Write-Host "`n■ Obtenir la dernière version du repo $_ ↓"  -ForegroundColor Green | git -C $_.FullName pull --all --recurse-submodules --verbose }
